@@ -9,7 +9,7 @@ Compare what the models show without deciding what the user should do.
 
 ## Choose the capability mode
 
-- **Connected mode:** Resolve exact scenario IDs and versions, then obtain normalized inputs and deterministic results from the scenario service.
+- **Connected mode:** Resolve exact scenario IDs and versions, then obtain normalized inputs and deterministic results when the scenario service exposes them. If it cannot return multiple results together, do not imply that opening one scenario preserved another scenario's unseen projection.
 - **Standalone mode:** Compare scenario specifications or projections supplied in the conversation. Calculate simple deltas only when units, dates, and money-value bases align. Do not manufacture missing projections.
 
 Connected mode may offer cloning or branching so the user can define another what-if. Standalone mode may return a portable comparison table and a list of inputs needed for a fuller calculation.

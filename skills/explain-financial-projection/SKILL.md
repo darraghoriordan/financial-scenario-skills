@@ -9,7 +9,7 @@ Answer from structured inputs and calculated outputs.
 
 ## Choose the capability mode
 
-- **Connected mode:** Read the active scenario, versioned assumptions, projection periods, diagnostics, and source metadata from the scenario service. Its deterministic engine is the source of truth for numbers.
+- **Connected mode:** Read the active scenario and the versioned assumptions, projection periods, diagnostics, and source metadata the scenario service actually exposes. Its deterministic engine is the source of truth for numbers. State when a requested breakdown is unavailable.
 - **Standalone mode:** Explain a projection, table, chart, or scenario specification supplied by the user. Restrict claims to the provided data and transparent arithmetic. Ask for missing rows or assumptions instead of recreating a long-horizon engine in prose.
 
 In either mode, distinguish reported facts from inferences. Never imply access to balances, tax details, or calculations that were not supplied.

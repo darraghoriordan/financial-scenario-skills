@@ -39,7 +39,7 @@ Read [references/scenario-model.md](references/scenario-model.md) when mapping t
 4. Create a missing named milestone before attaching other entities to it.
 5. Validate cross-references such as account, income, asset, and milestone IDs.
 6. Apply related changes together when partial application would misrepresent the request.
-7. In connected mode, run the deterministic engine and surface the resulting input diff and material output changes. In standalone mode, return the validated specification and identify calculations that were not performed.
+7. In connected mode, run the deterministic engine and surface the input diff and material output changes that the host returns. Do not infer a post-change result when recalculated output is not available in the same turn. In standalone mode, return the validated specification and identify calculations that were not performed.
 
 Do not invent a sale event for an asset, financing for a purchase, or a destination account for cash. Secured financing belongs with its asset when the host model uses integrated asset financing; unsecured debt tools are not a fallback for mortgages or vehicle finance.
 
@@ -59,6 +59,7 @@ After a successful proposal, summarize:
 - which assumptions were inferred;
 - when the change starts and ends;
 - which scenario version was recalculated, when connected;
-- the most material numerical changes reported by the engine, or the limits of standalone output.
+- the most material numerical changes reported by the engine, or that recalculation completed without returning a new result to explain in this turn;
+- the limits of any standalone output.
 
 Describe outcomes as projections under assumptions, not forecasts or guarantees.

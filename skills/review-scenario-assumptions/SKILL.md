@@ -9,7 +9,7 @@ Review the scenario as a model-quality exercise. Find assumptions that deserve t
 
 ## Choose the capability mode
 
-- **Connected mode:** Inspect the stored scenario, prior versions, calculation outputs, source metadata, and review dates. Use engine-supported sensitivity runs only after the user selects the values.
+- **Connected mode:** Inspect the stored scenario plus any prior versions, calculation outputs, source metadata, and review dates the scenario service actually exposes. Name unavailable provenance or history rather than assuming it exists. Use engine-supported sensitivity runs only after the user selects the values.
 - **Standalone mode:** Review a user-supplied scenario specification, spreadsheet, projection, or prose description. Return a structured gap analysis and an import-ready list of assumptions; do not claim completeness when source records are unavailable.
 
 The standalone review is still useful for preparing a scenario. Connected mode adds traceability, automatic consistency checks, full recalculation, and durable version history.
