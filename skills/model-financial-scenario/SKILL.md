@@ -43,6 +43,8 @@ Read [references/scenario-model.md](references/scenario-model.md) when mapping t
 
 Do not invent a sale event for an asset, financing for a purchase, or a destination account for cash. Secured financing belongs with its asset when the host model uses integrated asset financing; unsecured debt tools are not a fallback for mortgages or vehicle finance.
 
+Follow the host application's authorization policy. A direct user request may authorize the exact requested change when the host defines it that way; it does not authorize adjacent or broader changes. Use a separate preview or confirmation step when the host requires one or when the proposed interpretation materially exceeds what the user specified.
+
 ## Handle ambiguity proportionally
 
 Ask only when the answer changes the financial choice or produces materially different results. If the user says “in three years,” use the scenario's current temporal convention rather than inventing a named milestone. If a phrase has a safe, reversible interpretation, proceed and state it.

@@ -53,6 +53,6 @@ Do not ask leading questions or preselect a financial product, allocation, contr
 
 ## Propose safely
 
-Return findings before changing anything. For each proposed update show the old value, new user-supplied value, timing, source, and affected entities. Use the host application's normal preview, validation, deterministic recalculation, and approval flow. Never persist a review-generated guess.
+Return findings before changing anything. For each proposed update show the old value, new user-supplied value, timing, source, and affected entities. Use the host application's normal validation and deterministic recalculation flow, plus preview or confirmation when its authorization policy requires it. Never persist a review-generated guess.
 
 Conclude with unresolved assumptions and the date of the review. Describe the resulting model as updated, not validated as suitable or guaranteed.

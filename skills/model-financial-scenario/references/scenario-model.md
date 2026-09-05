@@ -30,4 +30,4 @@ In standalone mode, emit the same conceptual shape as structured Markdown, YAML,
 
 ## Safe tool sequence
 
-For related edits, create dependencies first: milestone, then account or asset, then income or expense, then cashflow rule. Preview and validate the complete change before persistence. If a tool reports an unavailable ID or invalid unit, re-read the scenario rather than guessing a replacement.
+For related edits, create dependencies first: milestone, then account or asset, then income or expense, then cashflow rule. Validate the complete change before persistence and use preview or confirmation when the host's authorization policy requires it. If a tool reports an unavailable ID or invalid unit, re-read the scenario rather than guessing a replacement.

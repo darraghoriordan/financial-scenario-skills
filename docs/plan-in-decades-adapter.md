@@ -11,7 +11,7 @@ The following capabilities should remain authenticated application tools or APIs
 - add, modify, and remove accounts, assets, incomes, expenses, loans, milestones, settings, and cashflow rules;
 - validate IDs, ownership, units, dates, ranges, and domain invariants;
 - run the full tax, pension, inflation, asset, loan, and cash-distribution engine;
-- preview diffs, request approval, persist versions, and retain audit history.
+- preview diffs where supported, enforce the product's authorization policy, persist versions, and retain audit history.
 
 Moving these into prompt-only skills would weaken correctness, security, and the product differentiation.
 
@@ -38,7 +38,7 @@ Keep only global identity, non-overridable safety rules, active scenario context
 
 `compare-financial-scenarios` needs read-only access to two or more exact scenario versions and a server-side normalized comparison result. Cloning is optional and should occur only on an explicit user request.
 
-`review-scenario-assumptions` needs read access to assumption provenance and review dates. Any proposed mutation must flow through the same preview, validation, recalculation, and approval path as direct modelling.
+`review-scenario-assumptions` needs read access to assumption provenance and review dates. Any proposed mutation must flow through the same authorization, validation, and recalculation path as direct modelling.
 
 ## Migration approach
 
