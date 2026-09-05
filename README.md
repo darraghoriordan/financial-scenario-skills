@@ -35,6 +35,8 @@ These skills support factual scenario modelling. They do not recommend financial
 
 Copy an individual folder from `skills/` into the skills directory supported by your agent environment, or publish the repository through your preferred skill catalogue.
 
+Connected applications can install the repository as a pinned package and import `getFinanceSkillCatalog` and `loadFinanceSkill`. The loader expands a selected skill with only its linked reference material, allowing a chatbot to load domain guidance progressively while keeping calculation and persistence in application tools.
+
 ## Licence
 
 Copyright 2026 Darragh ORiordan and Plan in Decades. Licensed under the [Apache License 2.0](./LICENSE); see [NOTICE](./NOTICE).

@@ -1,0 +1,26 @@
+{
+  "name": "@plan-in-decades/financial-scenario-skills",
+  "version": "0.1.0",
+  "description": "Portable financial scenario skills with a connected runtime loader",
+  "type": "module",
+  "license": "Apache-2.0",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.d.ts",
+    "index.js",
+    "skills",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "test": "node --test index.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
