@@ -1,0 +1,4 @@
+interface:
+  display_name: "Explain Financial Projection"
+  short_description: "Explain scenario results and calculations clearly"
+  default_prompt: "Use $explain-financial-projection to explain what this scenario projection shows."

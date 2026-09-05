@@ -1,0 +1,4 @@
+interface:
+  display_name: "Compare Financial Scenarios"
+  short_description: "Compare selected scenarios without recommending"
+  default_prompt: "Use $compare-financial-scenarios to compare these user-selected scenarios numerically."

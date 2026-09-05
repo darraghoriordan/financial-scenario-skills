@@ -1,0 +1,4 @@
+interface:
+  display_name: "Model Financial Scenario"
+  short_description: "Turn user choices into editable what-if scenarios"
+  default_prompt: "Use $model-financial-scenario to model this user-directed financial what-if."

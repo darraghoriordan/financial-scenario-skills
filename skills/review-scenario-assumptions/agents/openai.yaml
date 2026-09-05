@@ -1,0 +1,4 @@
+interface:
+  display_name: "Review Scenario Assumptions"
+  short_description: "Find missing, stale, or inconsistent assumptions"
+  default_prompt: "Use $review-scenario-assumptions to inspect this scenario for assumptions that need attention."
